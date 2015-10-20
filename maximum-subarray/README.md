@@ -1,4 +1,4 @@
-'''
+```
    FIND-MAX-CROSS-SUBARRAY(A,low,mid,high)
      left-sum = -∞
      sum = 0
@@ -16,4 +16,4 @@
            max-right = i
      return(max-left,max-right,left-sum+right-sum)
 
-'''
+```
