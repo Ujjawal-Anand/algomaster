@@ -22,9 +22,9 @@
 > number) which has the largest sum
 
 ## Algorithm
-=============
-### Brute-force-approach
 ------------------------
+### Brute-force-approach
+
 ### Divide-and-conquer
 
 ```
@@ -44,6 +44,23 @@
            right-sum = sum
            max-right = i
      return(max-left,max-right,left-sum+right-sum)
-
-
+```
 ### Dynamic-programming-approach(Kadane's Algorithm)
+
+----------------------------------------------------
+
+## Implementation
+-----------------------------------------------------
+### In C
+
+### In C++
+
+### In Python
+
+### In Java
+
+### In Javascript
+
+### In Ruby
+
+------------------------------------------------
