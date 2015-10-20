@@ -14,4 +14,20 @@
   The main reason behind this project is, I want to learn algorithm,their relationship with datastructure and to learn differnet programming languages by working on something and not just reading some text books ( believe me you are never going to learn anything by just reading those programming books you have to implement it).
 
 ##Progress Bar
+> This is not the complete list.
+> Topics are in random order
+
+### Datastructures
+ - [ ] Stacks
+ - [ ] Queues
+ - [ ] Linked Lists
+ - [ ] Hash Tables
+ - [ ] Binary Trees
+ - [ ] Heaps
+ 
+### Algorithms
+ - [ ] Sorting
+ - [ ] Maximum-Subarray
+ - [ ] Multiplication
+ 
   
