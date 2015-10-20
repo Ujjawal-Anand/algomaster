@@ -17,7 +17,8 @@
 
 ## About
 
->  the maximum subarray problem is the task of finding the contiguous subarray
+ From wikipedia
+> The maximum subarray problem is the task of finding the contiguous subarray
 > within a one-dimensional array of numbers (containing at least one positive 
 > number) which has the largest sum
 
@@ -28,10 +29,12 @@
 ### Divide-and-conquer
 > ##### Key concepts
 > - The maximum subarray problem is interesting only when the array contains some negative number
-> - After dividing the array into two subarrays A[low...mid] and A[mid+1...highh]  (hence divide and conquer apporach)the resulting maximum subarray a[i...j]  must line in exactly one of three following places
->   - In A[low..mid], so that low<=i<=j<=mid
->   - In A[mid+1...high], so that mid+1<=i<=j<=high, or
->   - crossing the midpoint  low<=i<=j<=high
+> - After dividing the array into two subarrays A[low...mid] and A[mid+1...high]  and hence divide and conquer apporach.The resulting maximum subarray a[i...j]  must line in exactly one of three following places
+>   1. In A[low..mid], so that low<=i<=j<=mid
+>   2. In A[mid+1...high], so that mid+1<=i<=j<=high, or
+>   3. crossing the midpoint  low<=i<=j<=high
+> - Find maximum subarrays of A[low...mid] and A[mid+1...high] recursivly, because these two subproblems are smaller instances of problem of finding a maximum subarray.
+
 
 
 ```
