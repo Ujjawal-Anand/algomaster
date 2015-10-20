@@ -6,7 +6,7 @@
 - [Algorithm](#algorithm)
   - [Brute-force-approach](#brute-force-approach)
   - [Divide-and-conquer](#divide-and-conquer)
-  - [Dynamic-programming-approach(Kadane's Algorithm)](#dynamic-programming-approach(Kadane's-algorithm)
+  - [Dynamic-programming-approach(Kadane's Algorithm)](#dynamic-programming-approach(Kadane's-algorithm))
 - [Implementation](#implementaion)
   - [In C](#in-c)
   - [In C++](#in-c++)
