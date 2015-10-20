@@ -26,6 +26,13 @@
 ### Brute-force-approach
 
 ### Divide-and-conquer
+> ##### Key concepts
+> - The maximum subarray problem is interesting only when the array contains some negative number
+> - After dividing the array into two subarrays A[low...mid] and A[mid+1...highh]  (hence divide and conquer apporach)the resulting maximum subarray a[i...j]  must line in exactly one of three following places
+>   - In A[low..mid], so that low<=i<=j<=mid
+>   - In A[mid+1...high], so that mid+1<=i<=j<=high, or
+>   - crossing the midpoint  low<=i<=j<=high
+
 
 ```
    FIND-MAX-CROSS-SUBARRAY(A,low,mid,high)
