@@ -54,6 +54,21 @@
            right-sum = sum
            max-right = i
      return(max-left,max-right,left-sum+right-sum)
+
+  FIND-MAX-SUBARRAY(A,low,high)
+    if(low == high)   //base-case of recursion
+      return(low,high,A[low])
+    else mid = (low+high)/2
+      (left-low,left-high,left-sum) = FIND-MAX-SUBARRAY(A,low,mid)
+      (right-low,right-high,right-sum) = FIND-MAX-SUBARRAY(A,mid+1,high)
+      (cross-low,cross-high,cross-sum) = FIND-MAX-CROSS(A,low,mid,high)
+     
+      if (left-sum > right-sum and left-sum > cross-sum)
+        return(left-low,left-high,left-sum)  // the max-subarray lies entirely in left sub-part
+      else if (right-sum > left-sum and right-sum > cross-sum)
+        return(right-low,right-high,right-sum) //the max-subarray lies entirely in right sub-part
+      else
+        return(cross-low,cross-high,cross-sum) //the max-subarray crosses the mid-point
 ```
 ### Dynamic-programming-approach(Kadane's Algorithm)
 
